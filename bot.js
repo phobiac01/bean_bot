@@ -25,7 +25,6 @@ bot.on('message', (message) => {
         var newUser = true;
         for (var i = 0; i < usersThatInteracted.length; i++) {
             if (sender == usersThatInteracted[i]) {
-                console.log(usersThatInteracted[i]);
                 newUser = false;
             }
         }
